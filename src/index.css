@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin: 0;
+  background-color: rgb(209 189 230);
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+  border: 2px solid black;
+  display: flex;
+  gap: 20px;
+}
+
+/* .dice {
+  border-radius: 20px;
+  border: 1px solid black;
+  background: white;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 48px;
+} */
+
+.dice img {
+  width: 100px;
+  height: 100px;
+}
+
+button {
+  margin-top: 5px;
+  width: 100%;
+  display: block;
+  color: white;
+  outline: none;
+  border: none;
+  align-items: center;
+  background: rgb(97 82 114);
+  padding: 5px 10px;
+  border-radius: 10px;
+}
