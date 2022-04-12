@@ -23,5 +23,5 @@ function roll(n) {
   const random = Math.floor(Math.random() * 6) + 1;
   rollHistory.push(random);
   HISTORY.innerHTML = rollHistory;
-  DICES[n].dice.src = `images/Alea_${random}.png`;
+  DICES[n].dice.src = `public/images/Alea_${random}.png`;
 }
